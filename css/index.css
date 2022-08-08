@@ -1,0 +1,159 @@
+body {
+  font-family: "Fredoka+One", sans-serif;
+}
+
+/* ----- Navbar-Section -----*/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.active-item {
+  color: #ff5c33;
+}
+
+/*------ Intro-Section ---- */
+
+.intro-section {
+  margin-left: 4rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-family: "Fredoka", sans-serif;
+}
+
+h1 {
+  font-family: "Fredoka+One", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.sub-headlines {
+  font-size: 1.5rem;
+  font-family: "Fredoka", sans-serif;
+}
+
+.sub-headline img {
+  background-color: #ff5c33;
+  border-radius: 50%;
+  height: 3vh;
+}
+
+.text {
+  margin-right: 45rem;
+  font-size: 1.2rem;
+}
+
+.action-btns {
+  margin-top: 3rem;
+}
+
+.action-btn {
+  padding: 10px 13px;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  background-color: #ff5c33;
+  color: #ffffff;
+}
+
+/**************/
+/*  Right-section  */
+
+/******************/
+
+.headphone-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headphone-div .discount {
+  position: relative;
+  width: 13%;
+  left: 38rem;
+  top: 20rem;
+}
+
+.discount-content h4 {
+  position: relative;
+  bottom: 22rem;
+  left: 21.2rem;
+  color: #ffffff;
+}
+
+.discount-content h1 {
+  position: relative;
+  bottom: 24rem;
+  left: 21rem;
+  color: #ffffff;
+}
+
+.headphone-div img:first-child {
+  position: absolute;
+  width: 170px;
+  top: 400px;
+  left: 820px;
+}
+
+.headphone-div img:last-child {
+  width: 420px;
+  position: relative;
+  z-index: -1;
+  bottom: 500px;
+  left: 230px;
+}
+
+.dot {
+  position: relative;
+  left: 59rem;
+  bottom: 30rem;
+  height: 20px;
+  width: 20px;
+  margin-right: 7px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.right-section .dots {
+  display: flex;
+  gap: 20px;
+  margin-top: -20px;
+}
+.right-section .dots .dot {
+  height: 26px;
+  width: 26px;
+  border-radius: 50px;
+}
+.right-section .dots .dot.yellow-dot {
+  background-color: #fbd104;
+}
+.right-section .dots .dot.tomato-dot {
+  background-color: #fe5e35;
+}
+.right-section .dots .dot.black-dot {
+  background-color: #000000;
+}
+
+.right-section .action-btn {
+  position: relative;
+  margin-left: 60rem;
+  bottom: 28rem;
+  cursor: pointer;
+}
